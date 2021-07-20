@@ -251,6 +251,11 @@ body {
   margin-top: 95px;
 }
 
+.portfolio-filters {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
 .btn-portfolio-filter {
   font-weight: 500;
   font-size: 16px;
@@ -261,8 +266,6 @@ body {
 
   background-color: var(--accent-inactive);
   color: var(--text-color-secondary);
-
-  margin-bottom: 15px;
 }
 
 .btn-portfolio-filter:focus,
@@ -272,6 +275,7 @@ body {
 }
 
 .portfolio-projects {
+  list-style: none;
   margin-top: 35px;
 }
 
