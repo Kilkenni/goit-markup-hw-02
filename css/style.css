@@ -326,6 +326,10 @@ body {
   margin-bottom: 20px;
 }
 
+.footer-logo > .logo-right {
+  color: var(--text-color-other-inv);
+}
+
 .footer-contacts {
   list-style: none;
   padding: 0;
@@ -340,7 +344,9 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--text-color-misc);
+}
 
+.footer-contacts-item:not(:last-child) {
   margin-bottom: 10px;
 }
 
